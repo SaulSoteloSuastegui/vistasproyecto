@@ -1,0 +1,11 @@
+video::-internal-media-controls-download-button {
+    display:none;
+}
+ 
+video::-webkit-media-controls {
+    overflow: hidden !important
+}
+video::-webkit-media-controls-enclosure {
+    width: calc(100% + 5px);
+    margin-left: auto;
+}

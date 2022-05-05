@@ -1,0 +1,113 @@
+
+#contenedor_pages{
+    margin: 0 auto;
+}
+
+.audiencia_pages{
+    width: 100%;
+    /*text-align: center;*/
+    vertical-align: top;
+}
+
+#paginas ul{
+    margin: 3px 0;
+    padding: 0;
+}
+
+#paginas li{
+    display: inline-block;
+    margin: 0;
+    padding: 3px;
+}
+
+#paginas li a{
+    background: #ddf0f1;
+    border-radius: 2px;
+    color: rgb(50, 50, 50);
+    padding: 3px 8px;
+    text-decoration: none;
+    font-size: 0.97em;
+}
+
+#paginas li a:hover {
+  background-color:  #5bc0c5;
+}
+
+.actual{
+    background: rgb(20, 69, 124) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.info_titulo{
+    text-align: center;
+}
+.info_tipo_audiencia{
+    width:300px;
+    text-align: center;
+}
+.info_delito{
+    width:300px;
+    text-align: center;
+}
+.info_fecha{
+    width:200px;
+    text-align: center;
+}
+.info_hora{
+    width:65px;
+    text-align: center;
+}
+.info_editar_datos{
+    width:95px;
+    text-align: center;
+}
+.visor_video{ /*Modificar el tamaño de los videos en consultar*/
+    width:90%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.casilla_vacia{
+    border: none !important;
+}
+
+
+.titulo_id{
+    border-right: none !important;
+    text-align: left;
+    font-family:  'Consolas', Trebuchet MS, Segoe UI, sans-serif;
+    font-size: 0.95em;
+    background-color: #3a084e !important;
+    color: #f8f7ec;
+    padding-left: 15px;
+}
+
+.titulo_tabla{
+    border-left: none !important;
+    text-align: center;
+    background-color: #3a084e !important;
+    color: #f8f7ec;
+    font-size: 1.1em;
+    font-family: Trebuchet MS, Tahoma, sans-serif;
+}
+
+.titulo_seccion{
+    text-align: center;
+}
+
+.titulo_herramienta{
+    text-align: center;
+}
+
+.espacio{
+    background: rgb(216, 216, 216) !important;
+}
+
+.titulo_datos{
+    word-wrap: break-word;
+    min-width: 160px;
+    width: 160px;
+    white-space:normal;
+}

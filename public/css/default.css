@@ -1,0 +1,324 @@
+body{
+  font-family: 'Cabin', Segoe UI, 'Meera Inimai', Trebuchet MS, Tahoma, sans-serif;
+  font-display: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:  'Cabin','Capriola', Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 2px 4px 3px rgba(20,20,20,0.33);
+  font-display: auto;
+}
+
+text{
+  font-family:  'Cabin','Capriola', Trebuchet MS, Segoe UI, sans-serif;
+  font-display: auto;
+}
+
+img.icon_boton{
+  display:block;
+  margin:auto;
+  height:35px;
+  padding:0%;
+}
+
+table.herramientas{
+  width:100%;
+}
+
+.bg-company-black {
+    background-color: #0a0a0a !important;
+}
+
+.bg-company-violet {
+  background-color: rgb(87, 4, 126) !important;
+}
+
+.bg-company-gray{
+  background-color: #ececec !important;
+}
+
+.bg-company-greenfit{
+  background-color: #064113 !important;
+}
+
+.bg-company-grayfit {
+  background-color: #202020  !important;
+}
+
+
+.bg-company-titulo-blanco{
+  color: #e8e3ff !important;
+  text-shadow: 1px 1px 10px -2px #333;
+}
+
+.bg-company-titulo-negro{
+  color: #111111 !important;
+  text-shadow: 1px 1px 10px -2px #333;
+  font-family:  'Capriola', 'Cabin', Trebuchet MS, sans-serif;
+}
+
+.bg-company-error{
+  color: #d10000 !important;
+	font-size: 50px;
+  font-family:  Segoe UI,  Trebuchet MS, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+td.consultavideo{
+  background-color: #202020 !important;
+}
+
+.txt-negro{
+  color: #111111 !important;
+}
+
+.texto_blanco{
+  color: #cecece;
+}
+
+
+._alert_correcto{
+	color:#006b0e;
+	font-size: 15px;
+  font-family: 'Cabin', Segoe UI,  Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px rgb(17, 17, 17);
+  margin: 0;
+  padding: 0;
+}
+
+._alert_error{
+	color:#df0b27;
+	font-size: 15px;
+  font-family: 'Cabin', Segoe UI,  Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px rgb(17, 17, 17);
+  margin: 0;
+  padding: 0;
+}
+
+._error{
+	color:#df0b27;
+	font-size: 15px;
+  font-family:  Segoe UI,  Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+._correcto{
+	color:#83ec2dd5;
+	font-size: 15px;
+  font-family: Segoe UI,  Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+
+._correcto2{
+	color:#f5f7cb;
+  font-size: 15px;
+  font-family:  Segoe UI,  Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+
+._fuenteadvertencia{
+  color:#fdedb8;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family:  Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+
+strong.dato_importante{
+  color:#103579;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family:  Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+
+}
+
+strong.dato_importante_consulta{
+  color:#f18b17;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family:  Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+
+}
+
+p.p_advertencia{
+	color:#f1ee2c;
+	font-size: 15px;
+  font-family:  'Capriola', Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+p.p_instrucciones{
+	color:#1d1d1d;
+	font-size: 14px;
+  font-family:  'Capriola', Trebuchet MS, Segoe UI, sans-serif;
+  text-shadow: 2px 3px 4px rgb(170, 170, 170);
+  margin: 0;
+  padding: 0;
+}
+
+p.p_aceptado_sql{
+	color:#83ec2dd5;
+	font-size: 15px;
+  font-family:  'Capriola', Trebuchet MS,  Segoe UI, sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+
+p.p_error_sql{
+	color:#df0b27;
+	font-size: 15px;
+  font-family: 'Capriola', Trebuchet MS, Segoe UI,  sans-serif;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+
+/*MENSAJE DE ERROR AL ESCRIBIR EL NOMBRE DE CARPETA O FECHA*/
+p.p_error{
+	color:#df0b27;
+  font-size: 1.09em;
+  font-family: Calibri, Segoe UI, Trebuchet MS, consolas,  sans-serif;
+  /*font-family: sans-serif, consolas, Trebuchet MS, Segoe UI,'Capriola';*/
+  font-weight: bolder;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+
+/*MENSAJE DE ACEPTADO AL ESCRIBIR EL NOMBRE DE CARPETA O FECHA*/
+p.p_correcto{
+	color: #027074;
+	font-size: 1.09em;
+  font-family: Calibri,  Segoe UI, Trebuchet MS, consolas,  sans-serif;
+  font-weight: bolder;
+  text-shadow: 1px 1px 10px -2px #333;
+  margin: 0;
+  padding: 0;
+}
+
+video.reproductor {
+  display: block;
+  margin: auto;
+}
+
+th.centrado {
+  display: block;
+  margin: auto;
+}
+
+span.sp_error{
+	color:#df0b27;
+	font-size: 13px;
+  font-family: Segoe UI, 'Capriola', Trebuchet MS, Segoe UI, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+span.sp_valido{
+	color:darkgreen;
+	font-size: 13px;
+  font-family: Segoe UI, 'Capriola', Trebuchet MS,  sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+tr.divisor {
+ background-color: indigo;
+}
+
+.card {
+  max-width: 100%;
+}
+.card-text {
+  word-wrap: break-word;
+}
+
+
+
+/*
+Make bootstrap-select work with bootstrap 4 see:
+https://github.com/silviomoreto/bootstrap-select/issues/1135
+*/
+.dropdown-toggle.btn-default {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #303f9f;
+    border-radius: 0px;
+  }
+  .dropdown-toggle.btn-default:focus,
+  .dropdown-toggle.btn-default:hover{
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #303f9f;
+    border-radius: 0px;
+  }
+  .bootstrap-select.show>.dropdown-menu>.dropdown-menu {
+    display: block;
+  }
+  
+  .bootstrap-select > .dropdown-menu > .dropdown-menu li.hidden{
+    display:none;
+  }
+  
+  .bootstrap-select > .dropdown-menu > .dropdown-menu li a{
+    display: block;
+    width: 100%;
+    padding: 3px 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #292b2c;
+    text-align: inherit;
+    white-space: nowrap;
+    background: 0 0;
+    border: 0;
+  }
+  
+  .dropdown-menu > li.active > a {
+    color: #fff !important;
+    background-color: #3f51b5 !important;
+  }
+  
+  .bootstrap-select .check-mark::after {
+    content: "✓";
+  }
+  .bootstrap-select button {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Make filled out selects be the same size as empty selects */
+  .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline !important;
+  }
+
+/*Make bootstrap-select work with bootstrap 4 see:
+https://github.com/silviomoreto/bootstrap-select/issues/1135
+END CODE
+*/
+
+

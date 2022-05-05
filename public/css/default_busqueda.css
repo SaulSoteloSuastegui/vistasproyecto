@@ -1,0 +1,190 @@
+body{
+	font-family: 'Cabin', Segoe UI, 'Meera Inimai', Trebuchet MS, Tahoma, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:  'Cabin','Capriola', Trebuchet MS, Segoe UI, sans-serif;
+	text-shadow: 2px 4px 3px rgba(20,20,20,0.33);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+text{
+	font-family:  'Cabin','Capriola', Trebuchet MS, Segoe UI, sans-serif;
+}
+
+.selectalto{
+  height: 30px !important;
+}
+
+/*FF420E*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #257985 !important; /*Important sirve para dar orden inmediata de cambiar el color*/
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #3A5199 !important;
+  opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #3A5199  !important;
+  opacity: 1;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #3A5199  !important;
+  }
+
+.bg-company-cyan {
+    background-color: #10a0aa !important;
+}
+
+.bg-company-white {
+  background-color: #e5eaeb !important;
+}
+
+.bg-select-p{
+  font-weight: initial;
+  color: rgb(46, 46, 46) !important;
+  background: #dadada !important;
+}
+
+.text_t{
+   color: #020202 !important;
+}
+
+
+
+.texto_negro {
+  color: #020202 !important;
+  text-shadow: 1px 1px 10px -2px rgb(255, 255, 255);
+}
+
+.texto_blanco {
+  color: #f0f0f0 !important;
+  text-shadow: 1px 1px 10px -2px rgb(37, 37, 37);
+}
+
+
+
+strong{
+  color: rgb(104, 0, 130);
+}
+
+#tipo-nombrecarpeta{
+  background-color: ghostwhite !important;
+  /*border: 0.1rem solid;*/
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+}
+
+#tipo-defensa{
+  background-color: ghostwhite !important;
+  /*border: 0.1rem solid;*/
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+}
+
+#tipo-asesor{
+  background-color: ghostwhite !important;
+  /*border: 0.1rem solid;*/
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+}
+
+#tipo-victima{
+  background-color: ghostwhite !important;
+  /*border: 0.1rem solid;*/
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+}
+
+
+#tipo-imputado{
+  background-color: ghostwhite !important;
+  /*border: 0.1rem solid;*/
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+}
+
+#tipo-fiscalia{
+  background-color: ghostwhite !important;
+  /*border: 0.1rem solid;*/
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+}
+
+#tipo-fecha{
+  background-color: ghostwhite !important;
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 85% !important;
+
+}
+
+#tipo-distrito{
+  background-color: ghostwhite !important;
+  border: 0.9rem none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 85% !important;
+
+}
+
+#tipo-tipoaudiencia{
+  background-color: ghostwhite !important;
+  border: 0.9rem none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+
+}
+
+.lista-autocompletar-items{
+  color: rgb(122, 122, 122);
+  position: absolute;
+  border: 1px solid #d8d8d8;
+  border-bottom: none;
+  z-index: 99;
+  top: 76%;
+  left: 4px;
+  right: 0;
+  width: 83%;
+}
+
+.lista-autocompletar-items div{
+  padding:  7px;
+  cursor: pointer;
+  background-color: ghostwhite;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.lista-autocompletar-items div:hover{
+  background-color: greenyellow;
+
+}
+
+.autocompletar-active{
+  background-color: greenyellow !important;
+  color: rgb(22, 165, 22);
+}
+
+
+
+.autocompletar-active strong{
+  color: rgb(104, 0, 130);
+}
+

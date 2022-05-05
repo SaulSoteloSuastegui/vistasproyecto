@@ -1,0 +1,78 @@
+
+/*FF420E*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #257985 !important; /*Important sirve para dar orden inmediata de cambiar el color*/
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #3A5199 !important;
+  opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #3A5199  !important;
+  opacity: 1;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #3A5199  !important;
+  }
+
+
+
+strong{
+  color: rgb(104, 0, 130);
+}
+
+#PalabraClave{
+  background-color: #ebebeb !important;
+  /*border: 0.1rem solid;*/
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+}
+
+#cfecha{
+  background-color: #ebebeb !important;
+  /*border: 0.1rem solid;*/
+  border: none;
+  border-color: #272585 !important;
+  font-size: 1.03em;
+  width: 95% !important;
+}
+
+
+
+.lista-autocompletar-items{
+  color: rgb(122, 122, 122);
+  position: absolute;
+  border: 1px solid #d8d8d8;
+  border-bottom: none;
+  z-index: 99;
+  top: 76%;
+  left: 4px;
+  right: 0;
+  width: 83%;
+}
+
+.lista-autocompletar-items div{
+  padding:  4px;
+  cursor: pointer;
+  background-color: ghostwhite;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.lista-autocompletar-items div:hover{
+  background-color: greenyellow;
+
+}
+
+.autocompletar-active{
+  background-color: greenyellow !important;
+  color: rgb(22, 165, 22);
+}
+
+
+
+.autocompletar-active strong{
+  color: rgb(104, 0, 130);
+}
+
